@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+/* Main Search and Image Search */
+#inpbtnHolder{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+#container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 90vh;
+}
+#mainSearch{
+    padding: 15px;
+    border-radius: 30px;
+    width: 600px;
+    border: 0.5px solid grey;
+    font-size: large;
+    font-family: 'Roboto';
+}
+#btnHolder{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    gap: 10px;
+}
+#logo{
+    max-width: 300px;
+    margin-bottom: 40px;
+}
+
+/* Advanced Search */
+td, th{
+    text-align: left;
+    font-family: 'Roboto';
+}
+table{
+    border-collapse: separate;
+    border-spacing: 0 10px;
+}
+.advInput{
+    width: 500px;
+    border-radius: 8px;
+    border: 1px solid grey;
+    padding: 5px;
+}
+.advInput:focus{
+    border-color: rgb(77, 127, 235);
+    outline: none;
+}
+#advLogo{
+    width: 100px;
+    height: auto;
+}
+#imgHolder{
+    margin-top: 23px;
+    margin-left: 10px;
+    position: fixed;
+    left: 0%;
+}
+
+
+/* Changes to everything */
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    height: 100vh;
+}
+.btn{
+    border-radius: 20px;
+    padding: 10px;
+    border: 1px solid white;
+    background-color: white;
+    font-family: 'Roboto';
+    font-weight: bold;
+    border: 1px solid rgb(197, 197, 197);
+    width: 120px;
+}
+.btn:hover{
+    border: 1px solid rgb(102, 102, 102);
+}
+#header{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 15px;
+    padding-right: 20px;
+    padding-top: 10px;
+}
+.link{
+    text-decoration: none;
+    color: grey;
+    font-family: 'Roboto';
+    font-size: small;
+    font-weight: bold;
+}
+.link:hover{
+    color: rgb(46, 46, 46);
+}

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>HTML Search</title>
+</head>
+<body>
+    <header id="header">
+        <div id="imgHolder">
+            <img id="advLogo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/2560px-Google_2015_logo.svg.png">
+        </div>
+        <a href="index.html" class="link">Google Search</a>
+        <a href="imgSearch.html" class="link">Image Search</a>
+    </header>
+
+    <table style="margin-top: 30px; margin-left: 10px;">
+        <tr>
+            <th>Localizar Páginas com...</th>
+            <td></td>
+            <td></td>
+            <th>Fazer isso na caixa de pesquisa</th>
+        </tr>
+        <tr>
+            <form action="https://www.google.com/search">
+                <th><label for="as_q">Todas essas palavras:</label></th>
+                <td><input type="text" name="as_q" class="advInput"></td>
+                <td><button type="submit" name="HTML Search" class="btn" style="visibility: hidden; width:5px;"></button></td>
+                <td>Digite as palavras importantes: rat terrier tricolor</td>
+            </form>
+        </tr>
+        <tr>
+            <form action="https://www.google.com/search">
+                <th><label for="as_q">Esta expressão ou frase exata:</label></th>
+                <td><input type="text" name="as_epq" class="advInput"></td>
+                <td><button type="submit" name="HTML Search" class="btn" style="visibility: hidden; width:5px;"></button></td>
+                <td>Coloque palavras exatas entre aspas: "rat terrier"</td>
+            </form>
+        </tr>
+        <tr>
+            <form action="https://www.google.com/search">
+                <th><label for="as_q">Qualquer uma destas palavras:</label></th>
+                <td><input type="text" name="as_oq" class="advInput"></td>
+                <td><button type="submit" name="HTML Search" class="btn" style="visibility: hidden; width:5px;"></button></td>
+                <td>Digite OR entre todas as palavras que você procura: miniatura OR padrão</td>
+            </form> 
+        </tr>
+        <tr>
+            <form action="https://www.google.com/search">
+                <th><label for="as_q">Nenhuma destas palavras:</label></th>
+                <td><input type="text" name="as_eq" class="advInput"></td>
+                <td><button type="submit" name="HTML Search" class="btn" style="visibility: hidden; width:5px;"></button></td>
+                <td>Coloque um sinal de menos antes das palavras que você não quer: -roedor, -"Jack Russell"</td>
+            </form>
+        </tr>
+    </table>
+</body>
+</html>
